@@ -1,0 +1,18 @@
+/* Sección sobre mi */
+.aboutMe {
+    background-image: url(../../../assets/img/fondo2.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff ;
+    margin-top: 9rem;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.imagato {
+    width: 50%;
+    position: relative;
+}
