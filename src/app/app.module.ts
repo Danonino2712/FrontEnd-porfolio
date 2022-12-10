@@ -11,6 +11,8 @@ import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { IndexComponent } from './components/index/index.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     LoginComponent,
     ProyectosComponent,
     SkillsComponent,
+    IndexComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
