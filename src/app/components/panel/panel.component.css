@@ -1,0 +1,16 @@
+/* modal */
+.modal {
+    --bs-modal-bg: rgb(106, 34, 130); 
+    }
+
+    .btn.btn-primary.p-5 {
+        background-color: #7c5ffd;
+    }
+
+    .modal-body {
+        color: #FFFFFF;
+    }
+
+    .btn.btn-dark {
+        background-color: rgba(20, 8, 124, 0.875);
+    }

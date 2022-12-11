@@ -13,6 +13,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { IndexComponent } from './components/index/index.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { PanelComponent } from './components/panel/panel.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     SkillsComponent,
     IndexComponent,
     DashboardComponent,
+    PanelComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,

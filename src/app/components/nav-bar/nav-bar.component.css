@@ -1,0 +1,43 @@
+/*NavBar*/
+.navbar.navbar-expand-lg.bg-dark {
+    background: rgb(23,13,56);
+    background: -moz-linear-gradient(270deg, rgba(23,13,56,1) 2%, rgba(14,14,14,1) 13%, rgba(13,19,143,1) 21%, rgba(0,0,0,1) 33%, rgba(26,122,125,1) 49%, rgba(0,0,0,1) 58%, rgba(23,64,129,1) 72%, rgba(0,0,0,1) 83%, rgba(44,17,74,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(23,13,56,1) 2%, rgba(14,14,14,1) 13%, rgba(13,19,143,1) 21%, rgba(0,0,0,1) 33%, rgba(26,122,125,1) 49%, rgba(0,0,0,1) 58%, rgba(23,64,129,1) 72%, rgba(0,0,0,1) 83%, rgba(44,17,74,1) 100%);
+    background: linear-gradient(270deg, rgba(23,13,56,1) 2%, rgba(14,14,14,1) 13%, rgba(13,19,143,1) 21%, rgba(0,0,0,1) 33%, rgba(26,122,125,1) 49%, rgba(0,0,0,1) 58%, rgba(23,64,129,1) 72%, rgba(0,0,0,1) 83%, rgba(44,17,74,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#170d38",endColorstr="#2c114a",GradientType=1);
+    }
+
+/*Redes*/
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-github.fa-2xl,
+i.fa-brands.fa-linkedin-in.fa-2xl,
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl{
+    color: rgb(255, 255, 255);  
+}
+
+.list-group.list-group-horizontal{
+    --bs-list-group-bg: transparent;
+}
+
+.list-group.list-group-horizontal{
+    --bs-list-group-border-color:  transparent;
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+color: rgb(255, 5, 222);
+}
+
+i.fa-brands.fa-github.fa-2xl:hover{
+    color:rgb(86, 86, 88);
+}
+
+i.fa-brands.fa-linkedin-in.fa-2xl:hover {
+    color:rgb(0, 183, 255);
+}
+
+i.fa-brands.fa-facebook.fa-2xl:hover {
+    color: rgb(15, 15, 224);
+}
+
