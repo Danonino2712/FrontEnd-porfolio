@@ -15,6 +15,8 @@ import { IndexComponent } from './components/index/index.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PanelComponent } from './components/panel/panel.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { PaginaLoginComponent } from './components/pagina-login/pagina-login.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     DashboardComponent,
     PanelComponent,
     NavBarComponent,
+    PaginaLoginComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
