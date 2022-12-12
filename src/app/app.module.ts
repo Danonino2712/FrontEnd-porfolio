@@ -17,6 +17,7 @@ import { PanelComponent } from './components/panel/panel.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PaginaLoginComponent } from './components/pagina-login/pagina-login.component';
 import { LogoutComponent } from './components/logout/logout.component';
+import { PaginaRegistroComponent } from './components/pagina-registro/pagina-registro.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { LogoutComponent } from './components/logout/logout.component';
     NavBarComponent,
     PaginaLoginComponent,
     LogoutComponent,
+    PaginaRegistroComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
- <app-nav-bar></app-nav-bar>
- <!-- formulario de login -->
+<app-nav-bar></app-nav-bar>
+
+<!-- formulario de login -->
             <section class="login">
             <div class="container text-center">
                 <div class="row">
@@ -9,6 +10,10 @@
                     <div class="modal-body text-white text-center">
                         <form>
                         <div class="mb-3">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre/s y apellido</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: Camila Rodriguez">
+                              </div>
                             <label for="exampleFormControlInput1" class="form-label">Email</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
                           </div>
@@ -16,19 +21,19 @@
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
                                 <div class="col-sm-10">
                                   <input type="password" class="form-control" id="inputPassword">
-                                </div>
+                                  </div>
                                 </div>
                         </form>
                       </div>
                       <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                        <button type="submit" class="btn btn-primary">Registrarme</button>
                       </div>
-                      <small class="text-white">Si no tenes cuenta, <a href="registro.html">registrate</a>!</small>
+                      <small class="text-white">Si ya tenes cuenta, <a href="login.html">ingresa</a>!</small>
                   </div>
                   <div class="col-2">
                   </div>
                 </div>
             </div>
           </section>
+
           <app-footer></app-footer>
-    
