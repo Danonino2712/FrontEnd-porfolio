@@ -1,0 +1,107 @@
+
+{
+    "sobreMi": [
+        {
+            "nombre": "Agustina Daniela",
+            "apellido": "Luján",
+            "sobreMi": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste."
+        }
+    ],
+
+    "estudios": [
+        {
+            "id": 1,
+            "titulo": "Titulo secundario",
+            "institucion": "Escuela media 11 Madres y Abuelas de Plaza de Mayo",
+            "inicio": 2017,
+            "finalizacion": 2022,
+            "descripcion": "Escuela pública donde también hice itinerarios de aplicaciones y robótica"
+        },
+        {
+            "id": 2,
+            "titulo": "Titulo universitario",
+            "institucion": "Unlu",
+            "inicio": 2022,
+            "finalizacion": 2026,
+            "descripcion": "Espero llegar a completarlo- es un ejemplo"
+        }
+    ],
+
+    "experiencia": [
+        {
+            "id": 1,
+            "empresa/Trabajo": "GoCode",
+            "puesto": "Atención al cliente",
+            "inicio": 2022,
+            "finalizacion/tiempoDentro": 2022,
+            "descripcion": "conectar con clientes"
+        },
+        {
+            "id": 2,
+            "empresa/Trabajo": "GoCode",
+            "puesto": "Atención al cliente",
+            "inicio": 2022,
+            "finalizacion/tiempoDentro": 2022,
+            "descripcion": "conectar con clientes"
+        }
+    ],
+
+    "habilidades": [
+        {
+            "id": 1,
+            "nombre": "Html",
+            "porcentaje": 80
+        },
+        {
+            "id": 2,
+            "nombre": "Css",
+            "porcentaje": 65
+        },
+        {
+            "id": 3,
+            "nombre": "Bootstrap",
+            "porcentaje": 70
+        },
+        {
+            "id": 4,
+            "nombre": "Javascript",
+            "porcentaje": 55
+        },
+        {
+            "id": 5,
+            "nombre": "Python",
+            "porcentaje": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Word-Excel",
+            "porcentaje": 75
+        },
+        {
+            "id": 7,
+            "nombre": "Unity (codigo)",
+            "porcentaje": 50
+        },
+        {
+            "id": 8,
+            "nombre": "Ingles",
+            "porcentaje": 40
+        }
+    ],
+
+    "proyectos": [
+        {
+            "id": 1,
+            "nombre": "Equinoccio",  
+            "descripcion": "Prototipo de juego que hice en curso de Aprender programando",
+            "imagen": ""
+        }
+    ],
+
+    "infoFooter": [
+        {
+            "email": "agustinadaniela12015@gmail.com",
+            "telefono": 113935812
+        }
+    ]
+}
