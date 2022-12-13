@@ -1,14 +1,29 @@
             <!-- Sección experiencia -->
             <section class="experience">
-                <h2>Experiencia laboral</h2>      
-                <div class="miniSeccionExp"> 
-                  <h5>Experiencia uno:</h5>
-                  <small>fecha de inicio y fin</small> 
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque dignissimos architecto iure, deleniti aliquid cupiditate provident odit optio recusandae illum facere culpa, harum sunt id reiciendis, asperiores similique mollitia!</p>
+              <h2 class="text-center">Experiencia Laboral</h2>
+              <div class="container">
+                <div class="row miniSeccion" *ngFor="let trabajo of experiencias">
+                  <div class="col-4">
+                    <h4>{{trabajo.empresa}}</h4>
+                    <h6>{{trabajo.puesto}}</h6>
+                    <small>{{trabajo.inicio}}  {{trabajo.finalizacion}}</small>
+                  </div>
+                  <div class="col-6">
+                    <p>{{trabajo.descripcion}}</p>
+                  </div>
+                  <div class="col-2">
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <button type="button" class="btn btn-dark">                          
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-dark"> 
+                        <i class="fa-solid fa-trash"></i>
+                      </button>
+                      <button type="button" class="btn btn-dark">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  </div>
                 </div>
-                <div class="miniSeccionExp"> 
-                  <h5>Experiencia dos:</h5> 
-                  <small>fecha de inicio y fin</small>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem quam nesciunt deserunt laboriosam ea commodi, architecto repellat accusamus ipsum adipisci quibusdam nam quos dolorem, quaerat modi blanditiis earum debitis.</p>
-                </div>
-            </section> 
+            </section>

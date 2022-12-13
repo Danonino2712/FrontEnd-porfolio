@@ -18,6 +18,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PaginaLoginComponent } from './components/pagina-login/pagina-login.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { PaginaRegistroComponent } from './components/pagina-registro/pagina-registro.component';
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { PaginaRegistroComponent } from './components/pagina-registro/pagina-reg
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

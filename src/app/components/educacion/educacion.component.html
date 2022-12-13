@@ -1,14 +1,30 @@
             <!-- Sección de Estudios -->
             <section class="studies">
-                <h2>Estudios</h2>
-                <div class="miniSeccionEsti"> 
-                  <h5>Titulo</h5> 
-                  <small>fecha de inicio y fin</small>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque dignissimos architecto iure, deleniti aliquid cupiditate provident odit optio recusandae illum facere culpa, harum sunt id reiciendis, asperiores similique mollitia!</p>
-                </div>
-                <div class="miniSeccionEstu"> 
-                  <h5>Titulo</h5> 
-                  <small>fecha de inicio y fin</small>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem quam nesciunt deserunt laboriosam ea commodi, architecto repellat accusamus ipsum adipisci quibusdam nam quos dolorem, quaerat modi blanditiis earum debitis.</p>
-                </div>            
+                <h2 class="text-center">Estudios</h2>
+                <div class="container">
+                  <div class="row miniSeccion" *ngFor="let estudiado of estudios">
+                    <div class="col-4">
+                      <h4>{{estudiado.titulo}}</h4>
+                      <h6>{{estudiado.institucion}}</h6>
+                      <small>{{estudiado.inicio}} - {{estudiado.finalizacion}}</small>
+                    </div>
+                    <div class="col-6">
+                      <p>{{estudiado.descripcion}}</p>
+                    </div>
+                    <div class="col-2">
+                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-dark">                          
+                          <i class="fa-solid fa-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-dark"> 
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <button type="button" class="btn btn-dark">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
               </section>
+

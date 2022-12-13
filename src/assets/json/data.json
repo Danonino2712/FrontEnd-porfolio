@@ -11,11 +11,11 @@
     "estudios": [
         {
             "id": 1,
-            "titulo": "Titulo secundario",
+            "titulo": "Titulo secundaria",
             "institucion": "Escuela media 11 Madres y Abuelas de Plaza de Mayo",
             "inicio": 2017,
             "finalizacion": 2022,
-            "descripcion": "Escuela pública donde también hice itinerarios de aplicaciones y robótica"
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam, veniam excepturi alias dicta dolore fuga expedita, voluptate deleniti, ab amet repellat. Porro unde ipsa magnam veniam voluptatibus nesciunt labore!"
         },
         {
             "id": 2,
@@ -23,26 +23,26 @@
             "institucion": "Unlu",
             "inicio": 2022,
             "finalizacion": 2026,
-            "descripcion": "Espero llegar a completarlo- es un ejemplo"
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam, veniam excepturi alias dicta dolore fuga expedita, voluptate deleniti, ab amet repellat. Porro unde ipsa magnam veniam voluptatibus nesciunt labore!"
         }
     ],
 
-    "experiencia": [
+    "experiencias": [
         {
             "id": 1,
-            "empresa/Trabajo": "GoCode",
+            "empresa": "GoCode",
             "puesto": "Atención al cliente",
             "inicio": 2022,
             "finalizacion/tiempoDentro": 2022,
-            "descripcion": "conectar con clientes"
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam, veniam excepturi alias dicta dolore fuga expedita, voluptate deleniti, ab amet repellat. Porro unde ipsa magnam veniam voluptatibus nesciunt labore!"
         },
         {
             "id": 2,
-            "empresa/Trabajo": "GoCode",
-            "puesto": "Atención al cliente",
+            "empresa": "Un trabajo X",
+            "puesto": "Compañera de crisis :D",
             "inicio": 2022,
             "finalizacion/tiempoDentro": 2022,
-            "descripcion": "conectar con clientes"
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam, veniam excepturi alias dicta dolore fuga expedita, voluptate deleniti, ab amet repellat. Porro unde ipsa magnam veniam voluptatibus nesciunt labore!"
         }
     ],
 
@@ -94,7 +94,7 @@
             "id": 1,
             "nombre": "Equinoccio",  
             "descripcion": "Prototipo de juego que hice en curso de Aprender programando",
-            "imagen": ""
+            "imagen": "../img/proyectoVacio.png" 
         }
     ],
 

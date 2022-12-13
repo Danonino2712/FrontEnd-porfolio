@@ -1,15 +1,14 @@
 /* Sección habilidades */
 .skill {
-    background-image: url(../../../assets/img/fondo2.jpg);
-    background-position: center;
-    background-size: 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #ffffff ;
-    margin-top: 4rem;
-    margin-left: 8em;
-    margin-right: 8em;
+  background-image: url(../../../assets/img/fondo2.jpg);
+  background-position: center;
+  background-size: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  color: #ffffff ;
+  margin-top: 4rem;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 /* Barra de progreso */
