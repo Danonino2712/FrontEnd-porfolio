@@ -4,14 +4,14 @@
         {
             "nombre": "Agustina Daniela",
             "apellido": "Luján",
-            "sobreMi": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste."
+            "presentacion": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste. Tengo que poner a prueba cuanto puede aguantar de texto, asi que escribo lo primero que me aparece en la mente, calculadora."
         }
     ],
 
     "estudios": [
         {
             "id": 1,
-            "titulo": "Titulo secundaria",
+            "titulo": "Titulo secundario",
             "institucion": "Escuela media 11 Madres y Abuelas de Plaza de Mayo",
             "inicio": 2017,
             "finalizacion": 2022,
@@ -50,42 +50,50 @@
         {
             "id": 1,
             "nombre": "Html",
-            "porcentaje": 80
+            "porcentaje": 80,
+            "porcentajeName": "% completado"
         },
         {
             "id": 2,
             "nombre": "Css",
-            "porcentaje": 65
+            "porcentaje": 65,
+            "porcentajeName": "% completado"
         },
         {
             "id": 3,
             "nombre": "Bootstrap",
-            "porcentaje": 70
+            "porcentaje": 70,
+            "porcentajeName": "% completado"
         },
         {
             "id": 4,
             "nombre": "Javascript",
-            "porcentaje": 55
+            "porcentaje": 55,
+            "porcentajeName": "% completado"
         },
         {
             "id": 5,
             "nombre": "Python",
-            "porcentaje": 60
+            "porcentaje": 60,
+            "porcentajeName": "% completado"
         },
         {
             "id": 6,
             "nombre": "Word-Excel",
-            "porcentaje": 75
+            "porcentaje": 75,
+            "porcentajeName": "% completado"
         },
         {
             "id": 7,
             "nombre": "Unity (codigo)",
-            "porcentaje": 50
+            "porcentaje": 50,
+            "porcentajeName": "% completado"
         },
         {
             "id": 8,
             "nombre": "Ingles",
-            "porcentaje": 40
+            "porcentaje": 40,
+            "porcentajeName": "% completado"
         }
     ],
 
@@ -94,14 +102,46 @@
             "id": 1,
             "nombre": "Equinoccio",  
             "descripcion": "Prototipo de juego que hice en curso de Aprender programando",
-            "imagen": "../img/proyectoVacio.png" 
+            "imagen": "../img/proyecto.equinoccio.jpg" 
+        },
+        {
+            "id": 2,
+            "nombre": "Ejemplo",  
+            "descripcion": "Un ejemplo porque no se me ocurre otro",
+            "imagen": "" 
         }
     ],
 
     "infoFooter": [
         {
-            "email": "agustinadaniela12015@gmail.com",
-            "telefono": 113935812
+            "email": "Email: agustinadaniela12015@gmail.com",
+            "telefono": "Telefono: 113935812",
+            "marca": "@Agustina Luján 2022"
+        }
+    ],
+
+    "redes": [
+        {
+            "id": 1,
+            "url": "https://www.instagram.com/danonino2712/",
+            "icono": "fa-brands fa-instagram fa-2xl"
+        },
+        {
+            "id": 2,
+            "url": "https://github.com/Danonino2712",
+            "icono": "fa-brands fa-instagram fa-2xl"
+        },
+        {
+            "id": 3,
+            "url": "https://www.linkedin.com/in/agustina-luj%C3%A1n-109095246/",
+            "icono": "fa-brands fa-instagram fa-2xl"
+        },
+        {
+            "id": 4,
+            "url": "https://www.facebook.com/profile.php?id=100084290914343",
+            "icono": "fa-brands fa-instagram fa-2xl"
         }
     ]
 }
+
+

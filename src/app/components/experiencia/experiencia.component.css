@@ -14,6 +14,10 @@
     background-color: rgb(24, 0, 112);
 }
 
+.btn-dark:hover {
+    color: rgb(0, 60, 255);
+  }
+
 .miniSeccion {
     margin-top: 2rem;
 }

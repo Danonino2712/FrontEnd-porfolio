@@ -18,7 +18,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PaginaLoginComponent } from './components/pagina-login/pagina-login.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { PaginaRegistroComponent } from './components/pagina-registro/pagina-registro.component';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { RedesComponent } from './components/nav-bar/redes/redes.component'; 
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
     PaginaLoginComponent,
     LogoutComponent,
     PaginaRegistroComponent,
+    RedesComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,3 +16,7 @@
     margin: auto;
     margin-top: 2rem;
 }
+
+.btn-dark:hover {
+    color: rgb(0, 60, 255);
+  }

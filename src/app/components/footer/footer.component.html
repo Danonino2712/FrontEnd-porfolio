@@ -1,10 +1,10 @@
 
-               <footer class="footer text-center">  
+               <footer class="footer text-center" *ngFor="let info of infoFooter">  
                 <small>
                 <ul>
-                  <li class="list-group-item">@Agustina Luján 2022</li>
-                  <li class="list-group-item">Telefono: 1131935812</li>
-                  <li class="list-group-item">Email: agustinadaniela12015@gmail.com</li>
+                  <li class="list-group-item">{{info.marca}}</li>
+                  <li class="list-group-item">{{info.telefono}}</li>
+                  <li class="list-group-item">{{info.email}}</li>
                 </ul>   
               </small>                           
         </footer>
