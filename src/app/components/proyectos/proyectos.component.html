@@ -1,39 +1,38 @@
+
 <section class="project">
-  <h2>Mis proyectos</h2>
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" *ngFor="let proyecto of proyectos">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img [src]="proyecto.imagen" class="d-block w-100" alt="1proyecto">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>{{proyecto.nombre}}</h5>
-          <p>{{proyecto.descripcion}}</p>
+  <div class="container-fluid">
+  <h2 class="text-center text-white">Mis proyectos</h2>
+  <div class="container text-center" *ngFor="let proyecto of proyectos">
+    <div class="row">
+      <div class="col-10">
+        <div class="card mt-2" style="width: 18rem;">
+          <img [src]="proyecto.imagen" class="card-img-top" [alt]="proyecto.descImg">
+          <div class="card-body">
+            <h4>{{proyecto.nombre}}</h4>
+            <p class="card-text">{{proyecto.descripcion}}</p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img [src]="proyecto.imagen" class="d-block w-100" alt="2proyecto">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>{{proyecto.nombre}}</h5>
-          <p>{{proyecto.descripcion}}</p>
+      <div class="col-2">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button type="button" class="btn btn-dark">                          
+            <i class="fa-solid fa-pencil"></i>
+          </button>
+          <button type="button" class="btn btn-dark"> 
+            <i class="fa-solid fa-trash"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-plus"></i>
+          </button>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
+</div>
 </section>
 
 
 <!-- pipes img: [src]="experiencia.logoEmpresa" -->
 <!-- LUEGO ARREGLAR DEL JSON LA RUTA DE LA IMAGEN -->
 <!-- corregir -->
+<!-- Intento arreglar esto pero sigue saliendose del borde. -->

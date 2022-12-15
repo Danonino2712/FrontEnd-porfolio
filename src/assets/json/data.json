@@ -68,7 +68,7 @@
         {
             "id": 4,
             "nombre": "Javascript",
-            "porcentaje": 55,
+            "porcentaje": 40,
             "porcentajeName": "% completado"
         },
         {
@@ -79,14 +79,14 @@
         },
         {
             "id": 6,
-            "nombre": "Word-Excel",
+            "nombre": "Word-Excel-PowerPoint",
             "porcentaje": 75,
             "porcentajeName": "% completado"
         },
         {
             "id": 7,
             "nombre": "Unity (codigo)",
-            "porcentaje": 50,
+            "porcentaje": 45,
             "porcentajeName": "% completado"
         },
         {
@@ -101,14 +101,16 @@
         {
             "id": 1,
             "nombre": "Equinoccio",  
-            "descripcion": "Prototipo de juego que hice en curso de Aprender programando",
-            "imagen": "../img/proyecto.equinoccio.jpg" 
+            "descripcion": "Prototipo de juego que hicimos en curso de Aprender programando junto a mis 6 compañeros",
+            "imagen": "./assets/img/proyecto.equinoccio.jpg",
+            "descImg": "Prototipo del juego"
         },
         {
             "id": 2,
             "nombre": "Ejemplo",  
             "descripcion": "Un ejemplo porque no se me ocurre otro",
-            "imagen": "" 
+            "imagen": "./assets/img/pruebas.png",
+            "descImg": "Ejemplo"
         }
     ],
 

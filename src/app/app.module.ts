@@ -19,7 +19,8 @@ import { PaginaLoginComponent } from './components/pagina-login/pagina-login.com
 import { LogoutComponent } from './components/logout/logout.component';
 import { PaginaRegistroComponent } from './components/pagina-registro/pagina-registro.component';
 import { HttpClientModule } from '@angular/common/http';
-import { RedesComponent } from './components/nav-bar/redes/redes.component'; 
+import { RedesComponent } from './components/nav-bar/redes/redes.component';
+import { ErrorComponent } from './components/error/error.component'; 
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { RedesComponent } from './components/nav-bar/redes/redes.component';
     LogoutComponent,
     PaginaRegistroComponent,
     RedesComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
