@@ -13,7 +13,7 @@ i.fa-solid.fa-user.fa-2xl{
 }
 
 .list-group.list-group-horizontal{
-    --bs-list-group-border-color:  transparent;
+    --bs-list-group-border-color:  transparent; 
 }
 
 i.fa-brands.fa-instagram.fa-2xl:hover{

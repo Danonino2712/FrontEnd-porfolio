@@ -7,3 +7,11 @@
 .form-login {
     margin-top: 10%;
 }
+ 
+.border-danger{
+  border-color: rgb(179, 8, 8)
+}
+
+.error{
+  color:rgb(179, 8, 8)
+}

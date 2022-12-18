@@ -16,6 +16,6 @@ export class FooterComponent implements OnInit{
   ngOnInit(): void{
     this.datos.getDatos().subscribe(data => {
       this.infoFooter = data.infoFooter;
-    })
+    }) 
   }
 }

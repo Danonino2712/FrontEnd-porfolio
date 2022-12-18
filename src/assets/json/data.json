@@ -4,7 +4,9 @@
         {
             "nombre": "Agustina Daniela",
             "apellido": "Luján",
-            "presentacion": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste. Tengo que poner a prueba cuanto puede aguantar de texto, asi que escribo lo primero que me aparece en la mente, calculadora."
+            "presentacion": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste. Tengo que poner a prueba cuanto puede aguantar de texto, asi que escribo lo primero que me aparece en la mente, calculadora.",
+            "foto": "./assets/img/fotoPerfilPrueba.png",
+            "banner": "./assets/img/bannerOpción2.png"
         }
     ],
 
@@ -111,6 +113,13 @@
             "descripcion": "Un ejemplo porque no se me ocurre otro",
             "imagen": "./assets/img/pruebas.png",
             "descImg": "Ejemplo"
+        },
+        {
+            "id": 3,
+            "nombre": "Ejemplo",  
+            "descripcion": "Un ejemplo porque no se me ocurre otro",
+            "imagen": "./assets/img/pruebas.png",
+            "descImg": "Ejemplo"
         }
     ],
 
@@ -126,22 +135,22 @@
         {
             "id": 1,
             "url": "https://www.instagram.com/danonino2712/",
-            "icono": "fa-brands fa-instagram fa-2xl"
+            "icono": "fa-instagram"
         },
         {
             "id": 2,
             "url": "https://github.com/Danonino2712",
-            "icono": "fa-brands fa-instagram fa-2xl"
+            "icono": "fa-github"
         },
         {
             "id": 3,
             "url": "https://www.linkedin.com/in/agustina-luj%C3%A1n-109095246/",
-            "icono": "fa-brands fa-instagram fa-2xl"
+            "icono": "fa-facebook"
         },
         {
             "id": 4,
             "url": "https://www.facebook.com/profile.php?id=100084290914343",
-            "icono": "fa-brands fa-instagram fa-2xl"
+            "icono": "fa-linkedin"
         }
     ]
 }

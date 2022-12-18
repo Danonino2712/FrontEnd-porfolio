@@ -8,7 +8,7 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class ExperienciaComponent implements OnInit{
 
-  experiencias: any;
+  experiencias: any; 
 
   constructor(private datos:DatosService) {}
 

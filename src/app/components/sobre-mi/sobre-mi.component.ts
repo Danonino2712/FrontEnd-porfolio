@@ -18,4 +18,4 @@ export class SobreMiComponent implements OnInit{
       this.sobreMi = data.sobreMi;
     })
   }
-}
+} 

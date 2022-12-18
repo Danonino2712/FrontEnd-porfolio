@@ -15,4 +15,4 @@ getDatos():Observable<any>{
 
   return this.http.get('./assets/json/data.json');
 }
-}
+} 

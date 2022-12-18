@@ -18,4 +18,4 @@ export class SkillsComponent implements OnInit{
       this.habilidades = data.habilidades;
     })
   }
-}
+} 

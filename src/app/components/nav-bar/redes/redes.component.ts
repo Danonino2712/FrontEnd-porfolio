@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './redes.component.html',
   styleUrls: ['./redes.component.css']
 })
-export class RedesComponent {
+export class RedesComponent { 
 
 }

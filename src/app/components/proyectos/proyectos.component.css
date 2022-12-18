@@ -17,7 +17,14 @@
     background-color: rgb(24, 0, 112);
 }
 
-  .card:hover {
+  .container-fluid{
     display: flex;
-    flex-direction: space beetwen;
+    justify-content: space-around;
+  }
+  .botones{
+    margin-top: 2rem;
+  }
+
+  .btn-group {
+    text-align: center;
   }

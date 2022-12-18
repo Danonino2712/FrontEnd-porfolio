@@ -17,6 +17,6 @@ export class EducacionComponent implements OnInit{
     this.datos.getDatos().subscribe(data => {
       this.estudios = data.estudios;
     })
-  }
+  } 
 }
  

@@ -1,6 +1,7 @@
-<app-nav-bar></app-nav-bar>
 
-<!-- formulario de login -->
+          <app-nav-bar></app-nav-bar>
+          
+ <!-- formulario de registro -->
             <section class="login">
             <div class="container text-center">
                 <div class="row">
@@ -8,32 +9,53 @@
                   </div>
                   <div class="col-8 form-login">
                     <div class="modal-body text-white text-center">
-                        <form>
+                        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                         <div class="mb-3">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre/s y apellido</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: Camila Rodriguez">
-                              </div>
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+                            <label for="email" class="form-label">Nuevo email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com" formControlName="email">
+                            <!-- Gracias al getter que configuramos en el controlador -->
+                            <div *ngIf="Mail?.errors  && Mail?.touched">    
+              
+                              <p *ngIf="Mail?.hasError('required')" class="error">
+                                El email es requerido.
+                              </p>
+                              <p *ngIf="Mail?.hasError('email')" class="error">
+                                El formato del email debe ser válido.
+                              </p>
+                            </div>
                           </div>
+
                           <div class="mb-3">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
                                 <div class="col-sm-10">
-                                  <input type="password" class="form-control" id="inputPassword">
-                                  </div>
+                                  <input type="password" class="form-control" id="inputPassword" formControlName="password" [class.border-success]="!MailValid">
                                 </div>
-                        </form>
+                                            <!-- Gracias al getter que configuramos en el controlador -->
+                                            <div *ngIf="Password?.errors  && Password?.touched">
+                                              <p *ngIf="Password?.hasError('required')" class="error">
+                                                La contraseña es requerida, por favor complete.
+                                                </p>
+                                                <p *ngIf="Password?.hasError('minlength')" class="error">
+                                                 La contraseña debe ser de 8 o más caracteres.
+                                                </p>
+                                              </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="submit" class="btn btn-primary">Registrarse</button>
+                                </div>
+                              </form>
                       </div>
-                      <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Registrarme</button>
-                      </div>
-                      <small class="text-white">Si ya tenes cuenta, <a href="login.html">ingresa</a>!</small>
+                      <small class="text-white">Si ya tenes cuenta, <a routerLink="/login">ingresa</a>!</small>
                   </div>
                   <div class="col-2">
                   </div>
                 </div>
             </div>
           </section>
+          <app-footer></app-footer> 
 
-          <app-footer></app-footer>
+          <!-- tambien arreglar para que el footer no se atraviese parte del formulario -->
+
+    
+
+ 

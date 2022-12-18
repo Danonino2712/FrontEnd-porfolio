@@ -21,6 +21,7 @@ import { PaginaRegistroComponent } from './components/pagina-registro/pagina-reg
 import { HttpClientModule } from '@angular/common/http';
 import { RedesComponent } from './components/nav-bar/redes/redes.component';
 import { ErrorComponent } from './components/error/error.component'; 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,9 +47,12 @@ import { ErrorComponent } from './components/error/error.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 

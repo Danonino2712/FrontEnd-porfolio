@@ -1,10 +1,9 @@
-
 <section class="project">
-  <div class="container-fluid">
   <h2 class="text-center text-white">Mis proyectos</h2>
+  <div class="container-fluid">
   <div class="container text-center" *ngFor="let proyecto of proyectos">
     <div class="row">
-      <div class="col-10">
+      <div class="col-4">
         <div class="card mt-2" style="width: 18rem;">
           <img [src]="proyecto.imagen" class="card-img-top" [alt]="proyecto.descImg">
           <div class="card-body">
@@ -13,26 +12,23 @@
           </div>
         </div>
       </div>
-      <div class="col-2">
-        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-          <button type="button" class="btn btn-dark">                          
-            <i class="fa-solid fa-pencil"></i>
-          </button>
-          <button type="button" class="btn btn-dark"> 
-            <i class="fa-solid fa-trash"></i>
-          </button>
-          <button type="button" class="btn btn-dark">
-            <i class="fa-solid fa-plus"></i>
-          </button>
+      <div class="row botones">
+        <div class="col-2">
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-dark">                          
+              <i class="fa-solid fa-pencil"></i>
+            </button>
+            <button type="button" class="btn btn-dark"> 
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <button type="button" class="btn btn-dark">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
         </div>
       </div>
+     
     </div>
   </div>
 </div>
 </section>
-
-
-<!-- pipes img: [src]="experiencia.logoEmpresa" -->
-<!-- LUEGO ARREGLAR DEL JSON LA RUTA DE LA IMAGEN -->
-<!-- corregir -->
-<!-- Intento arreglar esto pero sigue saliendose del borde. -->

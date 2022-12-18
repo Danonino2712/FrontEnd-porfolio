@@ -24,4 +24,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page. 
+
+
+
+
+<!-- NOTAS PENDIENTES -->
+
+Fue dificil estar casi dos semanas haciendo esto, pero logré dejarlo lo mayor completo posible. Por ahora me faltaria hacer responsive la parte del banner, foto de perfil, redes y hasta fondo si se puede. 
+Hay cosas que no quedan bien, como los fondos de las secciones que posiblemente sean quitadas.
+También se evalua el tema de hacer el dashboard y sacar los modales en otra carpeta.
+Queda lo de los formularios del dashboard
