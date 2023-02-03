@@ -13,7 +13,7 @@
     "estudios": [
         {
             "id": 1,
-            "titulo": "Titulo secundario",
+            "titulo": "Bachiller en ciencias sociales",
             "institucion": "Escuela media 11 Madres y Abuelas de Plaza de Mayo",
             "inicio": 2017,
             "finalizacion": 2022,
@@ -52,20 +52,17 @@
         {
             "id": 1,
             "nombre": "Html",
-            "porcentaje": 80,
-            "porcentajeName": "% completado"
+            "porcentaje": 80
         },
         {
             "id": 2,
             "nombre": "Css",
-            "porcentaje": 65,
-            "porcentajeName": "% completado"
+            "porcentaje": 65
         },
         {
             "id": 3,
             "nombre": "Bootstrap",
-            "porcentaje": 70,
-            "porcentajeName": "% completado"
+            "porcentaje": 70
         },
         {
             "id": 4,
@@ -76,26 +73,22 @@
         {
             "id": 5,
             "nombre": "Python",
-            "porcentaje": 60,
-            "porcentajeName": "% completado"
+            "porcentaje": 60
         },
         {
             "id": 6,
             "nombre": "Word-Excel-PowerPoint",
-            "porcentaje": 75,
-            "porcentajeName": "% completado"
+            "porcentaje": 75
         },
         {
             "id": 7,
             "nombre": "Unity (codigo)",
-            "porcentaje": 45,
-            "porcentajeName": "% completado"
+            "porcentaje": 60
         },
         {
             "id": 8,
             "nombre": "Ingles",
-            "porcentaje": 40,
-            "porcentajeName": "% completado"
+            "porcentaje": 40
         }
     ],
 
