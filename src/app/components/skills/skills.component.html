@@ -1,34 +1,35 @@
-            <!-- Sección habilidades-->
+<!-- Sección habilidades-->
 
-               <section class="skill">
-                <h2 class="text-center">Habilidades</h2>
-                <div class="container">
-                  <div class="row miniSeccion" *ngFor="let skills of habilidades">
-                    <div class="col-9">
-                      <div>
-                        <h5 class="text-center">{{skills.nombre}}</h5>
-                      <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" [style.width.%]="skills.porcentaje">
-                          <span>{{skills.porcentaje}}% completado</span>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                    <div class="col-1">    
-                    </div>
-                    <div class="col-2">
-                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                        <button type="button" class="btn btn-dark">                          
-                          <i class="fa-solid fa-pencil"></i>
-                        </button>
-                        <button type="button" class="btn btn-dark"> 
-                          <i class="fa-solid fa-trash"></i>
-                        </button>
-                        <button type="button" class="btn btn-dark">
-                          <i class="fa-solid fa-plus"></i>
-                        </button>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-               </section> 
+<section class="skill">
+  <h2 class="text-center">Habilidades</h2>
+  <div class="container">
+    <div class="row miniSeccion" *ngFor="let skills of habilidades">
+      <div class="col-9">
+        <div>
+          <h5 class="text-center">{{skills.nombre}}</h5>
+          <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+              [style.width.%]="skills.porcentaje">
+              <span>{{skills.porcentaje}}% completado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+      </div>
+      <div class="col-2">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-pencil"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

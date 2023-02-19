@@ -5,7 +5,7 @@
             "nombre": "Agustina Daniela",
             "apellido": "Luján",
             "presentacion": "Tengo 18 años, soy una programadora novata que está aprendienedo gracias a los cursos que tomo. Soy muy activa y me gusta aprender cosas nuevas por mas que al inicio me cueste. Tengo que poner a prueba cuanto puede aguantar de texto, asi que escribo lo primero que me aparece en la mente, calculadora.",
-            "foto": "./assets/img/fotoPerfilPrueba.png",
+            "foto": "../../../assets/img/fotoPerfilPrueba.png",
             "banner": "./assets/img/bannerOpción2.png"
         }
     ],

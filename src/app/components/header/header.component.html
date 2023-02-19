@@ -10,8 +10,10 @@
     </header> 
     
     <!-- foto de perfil -->
-    <div *ngFor="let about of sobreMi">
-        <img [src]="about.foto" alt="temporal" class="rounded-circle w-25 img-fluid">¨
+    <div *ngFor="let about of sobreMi" class="bg-light">
+        <img src="{{about.foto}}" alt="temporal" class="rounded-circle w-25 img-fluid">¨
+        {{about.foto}}
             </div>
+
 
     <!-- hacer responsive el banner y foto de perfil (minimo esta segunda) -->

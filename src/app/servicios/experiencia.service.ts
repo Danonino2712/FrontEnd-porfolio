@@ -19,7 +19,7 @@ export class ExperienciaService {
   }
 
     public crear(experiencia: Experiencia):Observable<any>{
-    return this.http.post<any>(this.url + 'crear', experiencia);
+    return this.http.post(this.url + 'crear', experiencia);
   }
 
         public editar(experiencia: Experiencia, id: number):Observable<any>{

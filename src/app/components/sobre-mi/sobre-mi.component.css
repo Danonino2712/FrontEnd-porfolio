@@ -1,10 +1,7 @@
 /* Sección sobre mi */
 .aboutMe {
-    background-image: url(../../../assets/img/fondo2.jpg);
-    background-position: center;
-    background-size: 100%;
+    background-color: rgb(5, 6, 105);
     margin: auto;
-    background-repeat: no-repeat;
     text-align: center;
     color: #ffffff ;
     margin-top: 9rem;
